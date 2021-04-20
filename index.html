@@ -11,14 +11,16 @@
 		<header class="header">
 			<a href="#" class="header__logo-link"><img src="./assets/img/logo.png" alt="" /></a>
 
-			<div class="header__nav">
+			<div class="header__nav" id="header-nav">
 				<ul class="header__nav-list">
-					<li class="header__nav-item"><a class="header__nav-link" href="#">Product</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#">Why Narrative BI?</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#">About</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#insights">Product</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#advantages">Why Narrative BI?</a></li>
+					<li class="header__nav-item"><a class="header__nav-link" href="#about">About</a></li>
 				</ul>
 				<a href="#" class="button header__btn">Get a Demo</a>
 			</div>
+
+			<div class="header__nav-toggle" id="nav-toggle"><img class="header__nav-icon" src="./assets/img/icons/menu.svg" alt=""></div>
 		</header>
 
 		<!-- HOME -->
@@ -61,7 +63,7 @@
 		</section>
 
 		<!-- INSIGHTS -->
-		<section class="section insights">
+		<section class="section insights" id="insights">
 			<div class="insights__inner bd-grid">
 				<h2 class="insights__title section-title">Within your data lies a story, let Narrative BI tell it.</h2>
 
@@ -72,7 +74,7 @@
 
 				<div class="insights__cards">
 					<div class="insights__card insights__card-1">
-						<h3 class="insights__card-title title--min">Personalized Anomaly Detection</h3>
+						<h3 class="insights__card-title insights__card-title--min">Personalized Anomaly Detection</h3>
 
 						<p class="insights__card-desc">
 							Narrative BI’s proprietary outlier-detection algorithm removes human bias and brings hidden insights that can be
@@ -136,7 +138,7 @@
 		</section>
 
 		<!-- ADVANTAGES -->
-		<section class="section advantages">
+		<section class="section advantages" id="advantages">
 			<div class="advantages__inner bd-grid">
 				<h2 class="advantages__title section-title">What makes Narrative BI so unique?</h2>
 
@@ -215,7 +217,7 @@
 		</section>
 
 		<!-- ABOUT -->
-		<section class="section about">
+		<section class="section about" id="about">
 			<div class="about__inner bd-grid">
 				<h2 class="about__title section-title">Sharp. Nimble. Personal.</h2>
 
@@ -277,5 +279,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<!-- SCRIPTS -->
+		<script src="./assets/js/main.js"></script>
 	</body>
 </html>
